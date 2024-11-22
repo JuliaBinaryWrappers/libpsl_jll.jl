@@ -1,143 +1,151 @@
 [[libpsl]]
 arch = "aarch64"
-git-tree-sha1 = "7659d57e4fb165319a3ee3b84fea8700c99e2bce"
+git-tree-sha1 = "f4a71715d8598ee2aa4ebea847fcf6c0c8297eca"
 os = "macos"
 
     [[libpsl.download]]
-    sha256 = "d85f13e362fb9ba1e137b2ef8ad88735225674b80c8e015d200ccd59b773c061"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "53c21715970d23b4e7123ce35de7d0827c6993df15a2117e962693d5ba77837b"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.aarch64-apple-darwin.tar.gz"
 [[libpsl]]
 arch = "aarch64"
-git-tree-sha1 = "58c32505382843d21d122a0c0e51ae86d2d4dfb2"
+git-tree-sha1 = "637d9a4dc4d28a69feaf8af2a7b7c414e7fa8775"
 libc = "glibc"
 os = "linux"
 
     [[libpsl.download]]
-    sha256 = "b10d38a1bb7f6369d34d7bf49a66f1156d43cf3ae5ddccf862c9b722762dd074"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "845716a9e01ccec0e03ffda0ca157a86ea799f688464d694b9441ed40b31dbde"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.aarch64-linux-gnu.tar.gz"
 [[libpsl]]
 arch = "aarch64"
-git-tree-sha1 = "908b9d34d99cb24199b503432f967c00da201a70"
+git-tree-sha1 = "e8430363731b906665121bbeb0940ed4309ac747"
 libc = "musl"
 os = "linux"
 
     [[libpsl.download]]
-    sha256 = "96517ac42eba9ec0c88a487d1cda9fa5dd796196a3c35528a0c5c8431f3598d6"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.aarch64-linux-musl.tar.gz"
+    sha256 = "0ffc724a529c74fffe806b41f8d1ea0aae2badd554e2eb8421e336e7142fce24"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.aarch64-linux-musl.tar.gz"
 [[libpsl]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "73a46116026c540d17e68b2bf118946d43f1c878"
-libc = "glibc"
-os = "linux"
-
-    [[libpsl.download]]
-    sha256 = "a51c16cb5e684cca6d6a5eea68813ce13538d292921af9d0805e068ac43f8067"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.armv6l-linux-gnueabihf.tar.gz"
-[[libpsl]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "2d60bc93804272058143ba28ccd53e0cb2c013e4"
-libc = "musl"
-os = "linux"
-
-    [[libpsl.download]]
-    sha256 = "827cc22b5cfd623d7aee532dbfb31e452b41b274190753b012dac5c28d000b75"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.armv6l-linux-musleabihf.tar.gz"
-[[libpsl]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "6ad4298dcd890cce4a41d6ddcef7a05154764872"
-libc = "glibc"
-os = "linux"
-
-    [[libpsl.download]]
-    sha256 = "7ef8b8f8e6ac5a11eb75cf623daafa233aa7cb1eabbce1bd6f79b10ea15277b8"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.armv7l-linux-gnueabihf.tar.gz"
-[[libpsl]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "2e36627312e802b890d441fc32a46f348e93b748"
-libc = "musl"
-os = "linux"
-
-    [[libpsl.download]]
-    sha256 = "67e02b85ecaa2bc39351dd1a4e00ac2ed2931afbdfabd5a0b36d53abca616c39"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.armv7l-linux-musleabihf.tar.gz"
-[[libpsl]]
-arch = "i686"
-git-tree-sha1 = "5f2c2a19b8d0bc5df4111bc6c5761f0eeb06c763"
-libc = "glibc"
-os = "linux"
-
-    [[libpsl.download]]
-    sha256 = "ae7bd44af87d2f5bdcb53d4755f54a928895191fbd96ed9a6401c0d6c205bd84"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.i686-linux-gnu.tar.gz"
-[[libpsl]]
-arch = "i686"
-git-tree-sha1 = "cc2a3cd5a62bf91254a79a30d81131c29bfb12a8"
-libc = "musl"
-os = "linux"
-
-    [[libpsl.download]]
-    sha256 = "748ca08aaea61c9f53c8a27044b2a6d58113c5a349032afb61078829d3bc185d"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.i686-linux-musl.tar.gz"
-[[libpsl]]
-arch = "i686"
-git-tree-sha1 = "52c0a1a622cc43de7b5fda61c2c7aa9d7d9bf49b"
-os = "windows"
-
-    [[libpsl.download]]
-    sha256 = "3122351911eeb80c1a493e35519f012076302fa6c75582ccead616e389899db7"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.i686-w64-mingw32.tar.gz"
-[[libpsl]]
-arch = "powerpc64le"
-git-tree-sha1 = "b611efaf614671b2217e6a59d8c854f1dd165004"
-libc = "glibc"
-os = "linux"
-
-    [[libpsl.download]]
-    sha256 = "11fc70dc0ce9cf5b07817937fd521e3f35ef6022dd7e2e926ac839aff948c798"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.powerpc64le-linux-gnu.tar.gz"
-[[libpsl]]
-arch = "x86_64"
-git-tree-sha1 = "4ba5984f0efbe98491adfde80ecd911a604db53a"
-os = "macos"
-
-    [[libpsl.download]]
-    sha256 = "54cf4fd0e25a18ee6d39132dba4a18ff818411a2d321d4356d5a4e644cbb294e"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.x86_64-apple-darwin.tar.gz"
-[[libpsl]]
-arch = "x86_64"
-git-tree-sha1 = "4ff5b9678f286c99651db29153c9640880f048d2"
-libc = "glibc"
-os = "linux"
-
-    [[libpsl.download]]
-    sha256 = "e8df7f2d2aa4ed7c1641a5d476b397226682a5724ed2acad6d5ae0ba03b7fdbf"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.x86_64-linux-gnu.tar.gz"
-[[libpsl]]
-arch = "x86_64"
-git-tree-sha1 = "042520474a111963f941c8d6ca3146ff97e3595a"
-libc = "musl"
-os = "linux"
-
-    [[libpsl.download]]
-    sha256 = "7925f17e56296892085bb6be3a27be70187c75ac96166e5c965d8986808ee66a"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.x86_64-linux-musl.tar.gz"
-[[libpsl]]
-arch = "x86_64"
-git-tree-sha1 = "ed35ba8b410dd1f15b4b2e7b0d5f6ad2d3bdafc1"
+arch = "aarch64"
+git-tree-sha1 = "18bb456e80d59b520f64a241797a1a6a81779022"
 os = "freebsd"
 
     [[libpsl.download]]
-    sha256 = "59e737aa3dbcec67b9205c4291fb36f3cb25e7aaef2cfeb708253449e107084b"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "4c118e7fddd545bf8a597ee541b5003f65d51a68360aa32cadc31256a2ebdb4f"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.aarch64-unknown-freebsd.tar.gz"
 [[libpsl]]
-arch = "x86_64"
-git-tree-sha1 = "e304182a783076cd69d6da419b634a5736e4b98e"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "6a67b1d24e7b8b7327daf176a51dd15b402d7f63"
+libc = "glibc"
+os = "linux"
+
+    [[libpsl.download]]
+    sha256 = "203aef38588fd04c47614db9ce1d86df3a4ac3daeb33c39ef4213533aad8353f"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.armv6l-linux-gnueabihf.tar.gz"
+[[libpsl]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "690e62ec6eeec8554116ab980a862dade80e31c1"
+libc = "musl"
+os = "linux"
+
+    [[libpsl.download]]
+    sha256 = "bbb1f0269120c0f909155225bba95dd79fb85a18503e3e104b0057c2485b760c"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.armv6l-linux-musleabihf.tar.gz"
+[[libpsl]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "1a06c3a1b54ab05e6041c8e7fbfc635f0522622b"
+libc = "glibc"
+os = "linux"
+
+    [[libpsl.download]]
+    sha256 = "404e7d7d45381336f5e816d8898480adb0cdfeebc8bb2e596754b6741eeed9cf"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.armv7l-linux-gnueabihf.tar.gz"
+[[libpsl]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9188ce28f67e65b8755333ed84f06f6f88d23e44"
+libc = "musl"
+os = "linux"
+
+    [[libpsl.download]]
+    sha256 = "459d0ee9fadd06b48711846b28ffa078de374a343b1208d14ffa50300375647e"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.armv7l-linux-musleabihf.tar.gz"
+[[libpsl]]
+arch = "i686"
+git-tree-sha1 = "226862c53a4ca04338cd5cc180aeac383ff867ee"
+libc = "glibc"
+os = "linux"
+
+    [[libpsl.download]]
+    sha256 = "1d3a0eea9d1840003ca1376617216801ba0d42f3aaaebbdeda725cc3061d9588"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.i686-linux-gnu.tar.gz"
+[[libpsl]]
+arch = "i686"
+git-tree-sha1 = "7bc2032c7b2c291c2fb0396ca951b95d8d3d326f"
+libc = "musl"
+os = "linux"
+
+    [[libpsl.download]]
+    sha256 = "d92dbb6fc74ccf9286a4c73fb38fd479a6ef51f5cdf5ca5a310b5ae858e0b0cd"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.i686-linux-musl.tar.gz"
+[[libpsl]]
+arch = "i686"
+git-tree-sha1 = "f8f1a1149bb14bfe094ef3168aebec9f0f642267"
 os = "windows"
 
     [[libpsl.download]]
-    sha256 = "620c6d0154a998af5d241d261a7fc8fcedfe7143b225244d93a7e8163de45d09"
-    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.1+0/libpsl.v0.21.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "54ea3b91b58b8d856af409db125a1f8fce3ae6659427f77d613797229e6ecc7a"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.i686-w64-mingw32.tar.gz"
+[[libpsl]]
+arch = "powerpc64le"
+git-tree-sha1 = "b98e1133e2c429ec836306049c433e856d7eedc9"
+libc = "glibc"
+os = "linux"
+
+    [[libpsl.download]]
+    sha256 = "cfff5126c2191dd552775a86cd4ace761774d0e2ea820351bcb94492fb870c30"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.powerpc64le-linux-gnu.tar.gz"
+[[libpsl]]
+arch = "x86_64"
+git-tree-sha1 = "fe4e0250f478805ffff1c1bcd9be5a3d5796fee5"
+os = "macos"
+
+    [[libpsl.download]]
+    sha256 = "b6b55e992897a27aedd72d41c369a7668f32aaf432976b0ca3499e2ea70c2490"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.x86_64-apple-darwin.tar.gz"
+[[libpsl]]
+arch = "x86_64"
+git-tree-sha1 = "bbed2f7fcffa50ef2220bda51c06d75fcf472e76"
+libc = "glibc"
+os = "linux"
+
+    [[libpsl.download]]
+    sha256 = "1c38a184a450ff2812f87505091ea2dab0ccd86a3d981e28972c015c263f76e7"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.x86_64-linux-gnu.tar.gz"
+[[libpsl]]
+arch = "x86_64"
+git-tree-sha1 = "b31b5aa02548cd182b1e0491e667bcfb4f017952"
+libc = "musl"
+os = "linux"
+
+    [[libpsl.download]]
+    sha256 = "b0d743aca00b171756c17729923e07749964619ddc9154f6a177d07e70c35c10"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.x86_64-linux-musl.tar.gz"
+[[libpsl]]
+arch = "x86_64"
+git-tree-sha1 = "b2d1b773d65fbf0cbb9d595e048914d1432c51f6"
+os = "freebsd"
+
+    [[libpsl.download]]
+    sha256 = "adb71486438952fba379555f46684b9491239b08acb5cea083aa1422b1e351bc"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.x86_64-unknown-freebsd.tar.gz"
+[[libpsl]]
+arch = "x86_64"
+git-tree-sha1 = "ed051052cc71f45a1fb4cabaca2e1f3689e1b51c"
+os = "windows"
+
+    [[libpsl.download]]
+    sha256 = "132a0b3d0bb5ae2320dcf9d58bfcf9840b78b3896e98c848c54d9866b6735ac1"
+    url = "https://github.com/JuliaBinaryWrappers/libpsl_jll.jl/releases/download/libpsl-v0.21.5+0/libpsl.v0.21.5.x86_64-w64-mingw32.tar.gz"
