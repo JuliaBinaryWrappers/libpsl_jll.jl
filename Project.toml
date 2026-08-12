@@ -1,6 +1,6 @@
 name = "libpsl_jll"
 uuid = "c4fadf96-db99-5883-8c55-41cf0165eeb0"
-version = "0.23.1+0"
+version = "0.23.2+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
